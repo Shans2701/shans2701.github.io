@@ -1,0 +1,40 @@
+.footer {
+  text-align: center;
+  bottom: 0;
+}
+
+.footer > p {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.footer > form {
+  padding: 10px;
+}
+
+.footer > form > input {
+  padding-left: 10px;
+  min-width: 350px;
+  min-height: 45px;
+  text-align: left;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+
+.footer > form > button {
+  background-color: #f8a888;
+  border-color: #f8a888;
+  min-width: 125px;
+  min-height: 50px;
+  text-align: center;
+}
+
+.social {
+  padding-top: 40px;
+  max-width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=footer.css.map */

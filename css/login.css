@@ -1,0 +1,64 @@
+.login {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.login > div {
+  margin-top: 30px;
+}
+
+.login > div > p {
+  margin-top: 15px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.btn > button {
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.btn > button > img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.btn > button > img:nth-child(2) {
+  border-radius: 7px;
+}
+
+.btn > button:nth-child(1) {
+  background-color: #3b5998;
+  border-color: #3b5998;
+  color: #fff;
+}
+
+.btn > button:nth-child(2) {
+  background-color: #4285f4;
+  border-color: #4285f4;
+  color: #fff;
+}
+
+.btn > button:nth-last-child(1) {
+  padding-left: 70px;
+  background-color: #fff;
+  border-color: #909090;
+  color: #000;
+}
+
+/*# sourceMappingURL=login.css.map */

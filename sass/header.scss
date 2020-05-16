@@ -1,0 +1,38 @@
+.container{
+    width: 1040px;
+    padding: 0 1rem;
+    // max-width: calc(1200px + 2rem);
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+
+}
+.header>h1{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+
+.nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav>ul{
+    list-style: none;
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+.nav>ul>li{
+    line-height: 40px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+

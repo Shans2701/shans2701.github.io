@@ -1,0 +1,91 @@
+.contact{
+   padding-top: 7em;
+    width: 100%;
+    background-color: #f8a888;
+    background-image: url(../images/leaf.webp);
+    height:500px;
+}
+.contact>h1{
+    text-transform: uppercase;
+    padding-top: 138px;
+    padding-left: 264px
+}
+.text{
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text>div{
+    margin-left: 50px;
+    width: 300px;
+}
+
+.conect >form >input{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 250px;
+    height: 25px;
+    background-color: #fcb08c;
+    border-color: #3d3c3c;
+    padding-left: 10px;;
+}
+.conect >form >input:nth-last-child(2){
+    height: 90px;
+}
+.conect >form >input> a{
+    text-align: right;
+    margin-right: 0px;
+    margin-left: 248px;
+    line-height: 40px;
+    
+}
+.map{
+    position: relative;
+    width: 100%;
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-color: #ededed;
+
+
+
+}
+.map >button{
+    border-color: #ffffff;
+    background-color: #ffffff;
+    height: 40px;
+    text-align: center;
+  
+}
+.map>button:nth-child(1){
+   font-weight: bold;
+   width: 53px;
+   margin-left: 10px;
+
+   }
+   .map>button:nth-child(2){
+       width: 85px;
+   }
+   .map >div{
+        margin-top: 393px;
+       display: flex;
+       flex-direction: column;
+       bottom: 0px;
+       right: 0px;
+       float: right;
+       
+   }
+   .map >div>button{
+       font-size: 18px;
+       font-weight: bold;
+       width: 40px;
+       height: 40px;
+       text-align: center;
+       line-height: 40px;
+       background-color: #ffffff;
+       border-color: #ffffff;
+       margin-bottom: 0px;
+   
+   }
